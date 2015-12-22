@@ -3,13 +3,13 @@
   "version": "1.3.4",
   "description": "This library is clean and tested wrapper for the FantasyData.com various sports api. Includes methods for MLB, NBA, NFL, and NHL stats.",
   "main": "./server/fantasydata-api.js",
-  "homepage": "https://github.com/n8io/fantasydata-api",
+  "homepage": "https://github.com/evanmcohen/fantasydata-api",
   "engines": {
     "node": ">=0.12.7"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/n8io/fantasydata-api.git"
+    "url": "https://github.com/evanmcohen/fantasydata-api.git"
   },
   "test": {
     "reporter": "spec"
@@ -36,7 +36,7 @@
     "MLB",
     "NHL"
   ],
-  "author": "Nate Clark <n8@n8io.com>",
+  "author": "Evan Cohen",
   "license": "MIT",
   "dependencies": {
     "async": "^1.4.2",
