@@ -5,7 +5,7 @@ var url = require('url');
 
 module.exports = function(options) {
   var defaults = {
-    timeoout: 15000,
+    timeout: 15000,
     nba: {
       version: 'nba/v2',
       key: ''
