@@ -693,6 +693,11 @@ module.exports = function(options) {
     makeRequest(uri, callback);
   };
 
+  FantasyData.nfl.dailyFantasyScoring = function(date, callback){
+    var uri = buildNflUrl('DailyFantasyPoints/{{date}}', {date:date});
+    makeRequest(uri, callback);
+  }
+  
   function validateConfig(cfg) {
     var isValid = true;
 
